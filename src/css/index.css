@@ -1,0 +1,19 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+#app {
+	display: grid;
+	grid: minmax(56px, auto) 1fr auto / auto-flow;
+	height: 100%;
+}
+
+#main-header,
+#main-footer {
+	background-color: #331133;
+}
+
+#main-container {
+ background-color: #eee;
+}
